@@ -1,0 +1,10 @@
+{
+  "name": "budg",
+  "version": "0.0.1",
+  "dependencies": {
+    "handlebars": "~1.1.2",
+    "jquery": "~1.10.2",
+    "ember": "~1.5.1"
+  },
+  "private": true
+}

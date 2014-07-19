@@ -1,0 +1,171 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 20px;
+
+}
+
+html, body
+{
+    height: 100%;
+}
+
+h1
+{
+	color: #999;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+svg
+{
+	shape-rendering: crispEdges;	
+}
+
+#content
+{
+	border-top: 1px solid #CCC;
+	background: #ececec;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	bottom: 46px;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+#summary
+{
+	height: 150px;
+	position: relative;
+}
+
+#chart-container
+{
+	margin: 0 40px;
+}
+
+#chart
+{
+	position: absolute;
+	width: 100%;
+	height: 75px;
+	bottom: 20px;
+}
+
+#bottom-menu
+{
+	border-top: 1px solid #CCC;
+	position: fixed;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+	background: white;
+	height: 46px;
+	border-top: 1px solid #ebebeb;
+}
+
+#add-button
+{
+	position: relative;
+	left: 56px;
+	top: 10px;
+}
+
+#history .price
+{
+	text-align: right;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 50px;
+	font-size: 10px;
+	color: #999999;
+}
+
+#history .item
+{
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	left: 6px;
+	color: red;
+}
+
+#history .category
+{
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	left: 12px;
+	color: #999;
+	font-size: 12px;
+}
+
+#history
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 1.5em;
+}
+
+.total-day
+{
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+	font-size: 12px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+.date
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline-block;
+	position: relative;
+	left: 6px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.day
+{
+	display: inline-block;
+	position: relative;
+	left: 12px;
+	font-size: 12px;
+}
+
+.title
+{
+	margin-top: 4px;	
+}
+
+hr
+{
+	color: #ebebeb;
+	background-color: #ebebeb; 
+	height: 1px;	
+}
+
+
+
+@media screen and (max-device-width: 480px){
+	
+	body
+	{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   		font-weight: 300;
+	    line-height: 33px;
+	}
+	
+	
+}

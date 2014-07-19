@@ -1,0 +1,26 @@
+{
+  "name": "transformer",
+  "version": "0.0.1",
+  "description": " ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceds-ninjas/transformer.git"
+  },
+  "readme": "README.md",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.3",
+    "gulp-ember-handlebars": "^0.6.0",
+    "gulp-ftp": "^0.4.0",
+    "gulp-inject": "^0.4.1",
+    "gulp-jshint": "^1.7.1",
+    "gulp-newer": "^0.3.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-ruby-sass": "^0.6.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-watch": "^0.6.8",
+    "jshint-stylish": "^0.4.0",
+    "main-bower-files": "^1.0.0"
+  }
+}
